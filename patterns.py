@@ -1,0 +1,4 @@
+patterns = [
+    "diamond",
+    "half-pyramid"
+]
