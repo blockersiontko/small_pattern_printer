@@ -89,7 +89,8 @@ class PatternPrinter:
 
         if not sizeInput.isdigit():
             utils.clearTerminal
-            self.err_InputNotFound
+            self.err_InputNotFound()
+            input("Naciśnij Enter, by spróbować ponownie...")
             return self.executePattern()
         
         size = int(sizeInput)
